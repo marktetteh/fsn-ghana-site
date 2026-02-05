@@ -80,7 +80,9 @@ export default function FSN_GhanaOcean() {
             <p className="mt-4 text-sky-100 md:text-lg">
               We champion safety at sea, climate resilience, sustainable fishing
               and community-led advocacy across coastal communities.
+              <a href = "https://3news.com/news/fisherfolk-sustainability-network-launches-in-keta-donates-life-jackets">Link for Advocacy events</a>
             </p>
+            <a href = "https://3news.com/news/fisherfolk-sustainability-network-launches-in-keta-donates-life-jackets">Link for Advocacy events</a>
             <div className="mt-6 flex flex-wrap gap-3 justify-center">
               <a
                 href="#work"
@@ -116,14 +118,14 @@ export default function FSN_GhanaOcean() {
               Ghana’s coastal communities depend on healthy oceans for livelihoods and
               nutrition. Overfishing, unsafe practices at sea, climate change and weak
               enforcement threaten people and ecosystems. The Fisherfolk Sustainability
-              Network (FSN) works hand-in-hand with communities to build safety,
+              Network (FSN) works hand-in-hand with communities to advocate for safety,
               resilience and sustainable futures.
             </p>
             <div className="mt-6 grid sm:grid-cols-3 gap-4">
               {[
                 { k: "Communities", v: "Nungua, Keta, Anyanui, Dixcove, Anomabo, Jomorro" },
-                { k: "Focus", v: "Safety • Sustainability • Advocacy • Research" },
-                { k: "Approach", v: "Community-led training, partnerships & policy" },
+                { k: "Focus", v: "• Safety • Sustainability • Advocacy • Research" },
+                { k: "Approach", v: "Community-led training, partnerships & policy implementation" },
               ].map((x) => (
                 <div
                   key={x.k}
@@ -155,7 +157,7 @@ export default function FSN_GhanaOcean() {
           <h2 className="text-2xl md:text-3xl font-bold">Key challenges we address</h2>
           <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { t: "Climate stress", d: "Changing currents and extreme weather increase risks for small-scale fishers." },
+              { t: "Climate Action", d: "Changing currents and extreme weather increase risks for small-scale fishers." },
               { t: "Unsustainable practices", d: "Non-selective gear and poor handling reduce stocks and quality." },
               { t: "Safety at sea", d: "Limited training and equipment lead to preventable accidents." },
               { t: "Weak enforcement", d: "Fragmented regulations and low awareness hinder compliance." },
@@ -226,8 +228,8 @@ export default function FSN_GhanaOcean() {
             <h2 className="text-2xl font-bold mb-2">Get in touch</h2>
             <p className="text-sm text-slate-700 mb-4">For partnerships, press and volunteering.</p>
             <ul className="text-sm text-slate-700 space-y-2">
-              <li><strong>Email:</strong> info@fsn.example</li>
-              <li><strong>Phone:</strong> +233 000 000 000</li>
+              <li><strong>Email:</strong> info@fsn.org</li>
+              <li><strong>Phone:</strong> +233 500 030 0248</li>
               <li><strong>Address:</strong> Coastal Community Hub, Accra, Ghana</li>
             </ul>
           </div>
@@ -242,6 +244,9 @@ export default function FSN_GhanaOcean() {
               </a>
               <a className="px-5 py-3 rounded-2xl border border-sky-300 text-sky-700 hover:bg-white shadow" href="#">
                 Partner with us
+              </a>
+              <a className="px-5 py-3 rounded-2xl bg-sky-600 text-white hover:bg-sky-700 shadow" href="https://3news.com/news/fisherfolk-sustainability-network-launches-in-keta-donates-life-jackets">
+                FSN Donations
               </a>
             </div>
           </div>
