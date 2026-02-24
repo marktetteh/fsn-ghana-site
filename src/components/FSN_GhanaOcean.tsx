@@ -1,6 +1,7 @@
+
 "use client";
 import React, { useRef, useState } from "react";
-
+import ManagementSection from "./ManagementSection";
 export default function FSN_GhanaOcean() {
   // --- HERO video sound toggle ---
   const heroRef = useRef<HTMLVideoElement>(null);
@@ -252,7 +253,7 @@ export default function FSN_GhanaOcean() {
           </div>
         </div>
       </section>
-
+<ManagementSection />
       {/* Footer */}
       <footer className="border-t border-slate-200">
         <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-3">
